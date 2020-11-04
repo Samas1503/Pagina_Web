@@ -1,0 +1,9 @@
+.icono img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.icono h1 {
+    text-align: center;
+}
