@@ -7,50 +7,112 @@
     <title>Pagina Principal</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="Font_Awesome/css/all.min.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <img src="img/iconos/icono.png" height="60" alt="">
+        <section class="slider d-flex justify-content-center align-items-center">
+            <div class="slider-home">
+                <div id="carouselExampleIndicators" class="carousel slide position-static" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active position-static" style="height: 100vh">
+                            <img class="d-block w-100 h-100" src="img/Fondos/Fondo principal.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <img src="img/iconos/icono2.png" style="height: 100px;" alt="">
+                                <h1>Arboles Berdes</h1>
+                                <h6>Lo escrubimos mal pero los cuidamos bien.</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <img src="img/iconos/icono2.png" height="60" alt="">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#">
+                            <h4>Inicio</h4>
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fotos</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <h4>Fotos</h4>
+                        </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="desplegable" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Foros</a>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link" href="#" id="desplegable" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                            <h4 class="dropdown-toggle">Foros</h4>
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="desplegable">
-                            <a class="dropdown-item" href="#">Preparacion</a>
-                            <a class="dropdown-item" href="#">Plantacion</a>
-                            <a class="dropdown-item" href="#">Cuidado de Plantas</a>
-                            <a class="dropdown-item" href="#">Progreso</a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Preparacion</h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Plantacion</h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Cuidado de Plantas</h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Progreso</h6>
+                            </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Sugerencias</a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Sugerencias</h6>
+                            </a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
+
     </header>
 
+    <footer id="pie">
+        <div>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h4 class="text-white">Contactanos</h4>
+                    <span class="text-muted" id="contactos">
+                        <i class="far fa-envelope"></i>
+                        <a href="#"> arbolesberdes@gmail.com</a>
+                        <br>
+                        <i class="fab fa-instagram"></i>
+                        <a href="#"> Instagram</a>
+                        <br>
+                        <i class="fab fa-facebook"></i>
+                        <a href="#"> Facebook</a>
+                        <br>
+                        <i class="fab fa-twitter"></i>
+                        <a href="#"> Twitter</a>
+                        <br>
+                        <i class="fas fa-phone-alt"></i>
+                         <a href="#"> Tel/Cel: (+54) 3884 558 285</a>
+                    </span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <p class="text-white">Copyright <span><i class="far fa-copyright"></i></span> Arboles Berdes 2020. El contenido de las páginas externas no es responsabilidad de los autores de este sitio.· <a href="#"> Privacy politics</a></p>
+            </nav>
+        </div>
+    </footer>
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="Font_Awesome/js/all.min.js"></script>
 </body>
 
 </html>
