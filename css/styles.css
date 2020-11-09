@@ -19,6 +19,14 @@
     background-attachment: fixed;
 }
 
+.user img {
+    margin-top: -120px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
 .formulario {
     background: rgba(0, 0, 0, .1);
     padding: 20px;
