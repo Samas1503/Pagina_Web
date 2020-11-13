@@ -12,6 +12,13 @@
     margin-top: 0px;
 }
 
+.fondo-main {
+    background-image: url("../img/Fondos/fondo_registro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .fondo-reg {
     background-image: url("../img/Fondos/fondo_registro.jpg");
     background-size: cover;
