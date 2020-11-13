@@ -13,7 +13,7 @@
 }
 
 .fondo-main {
-    background-image: url("../img/Fondos/fondo_registro.jpg");
+    background-image: url("../img/Fondos/Fondo_principal_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,6 +21,13 @@
 
 .fondo-reg {
     background-image: url("../img/Fondos/fondo_registro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-store {
+    background-image: url("../img/Fondos/fondo_store.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
