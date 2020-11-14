@@ -11,6 +11,91 @@
 </head>
 
 <body class="fondo-reg">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+            <img src="img/iconos/icono2.png" height="50" alt="">
+            <h2 class="text-white ml-3"> Arboles Berdes</h2>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="#menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="#">
+                            <h5><i class="fas fa-home align-items-center"></i></h5>
+                            <h5> Inicio </h5>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown active m-auto">
+                        <a class="nav-link text-center" href="#" id="desplegable" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                            <h5><i class="fas fa-comments"></i></h5>
+                            <h5 class="dropdown-toggle"> Foros </h5>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="desplegable">
+                            <a class="dropdown-item" href="#">
+                                <h6>Preparacion </h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Plantacion</h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Tips Sobre Cuidado de Plantas</h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Tu Progreso</h6>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <h6>Nuestro Avance</h6>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <h6>Sugerencias</h6>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="#">
+                            <h5><i class="fas fa-images align-items-center"></i></h5>
+                            <h5> Fotos </h5>
+                        </a>
+                    </li>
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="#">
+                            <h5><i class="fas fa-newspaper align-items-center"></i></h5>
+                            <h5> Noticias </h5>
+                        </a>
+                    </li>
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="Tienda.html">
+                            <h5><i class="fas fa-shopping-bag align-items-center"></i></h5>
+                            <h5> Tienda </h5>
+                        </a>
+                    </li>
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="#">
+                            <h5><i class="fas fa-dollar-sign align-items-center"></i></h5>
+                            <h5> Donaciones</h5>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="Registro.html">
+                            <h5><i class="fas fa-archive align-items-center"></i></h5>
+                            <h5> Registrarse </h5>
+                        </a>
+                    </li>
+                    <li class="nav-item active m-auto">
+                        <a class="nav-link text-center" href="#">
+                            <h5><i class="fas fa-user-circle align-items-center"></i></h5>
+                            <h5> Iniciar Secion </h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="continer pb-5 pt-5">
         <div class="row justify-content-center pt-5 mt-5 mr-1 ml-1 mb-5">
             <div class="col-md-6 col-sm-12 col-lg-4 col-xl-4 formulario">
@@ -69,7 +154,7 @@
                     </div>
                     <div class="form-group mx-md-5 pb-5">
                         <input type="submit" name="Enviar" id="enviar" class="btn btn-block btn-success text-white">
-                        <a href="index.html" class="btn btn-block btn-danger text-white">Cancelar</a>
+                        <a href="index.html" id="cancelar" class="btn btn-block btn-danger text-white">Cancelar</a>
                     </div>
                 </form>
             </div>
