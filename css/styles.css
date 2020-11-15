@@ -33,6 +33,67 @@
     background-attachment: fixed;
 }
 
+.menu {
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.cuerpo {
+    padding-top: 100px;
+}
+
+.store {
+    padding-top: 100px;
+}
+
+.store:before {
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(34, 40, 40, 1.1), rgba(255, 255, 255, .1));
+    background-attachment: fixed;
+}
+
+.navg a {
+    color: #f4f4f4!important;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-header {
+    min-height: 100vh;
+    color: white;
+}
+
+.text-header span {
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    margin: 0 0 0 5px;
+}
+
+.text-header p {
+    font-size: 1em;
+}
+
+.btn-yo {
+    padding: 7px 12px;
+    color: white;
+    background-color: #c10000c0;
+}
+
+.btn-yo:hover {
+    color: white;
+    background-color: #c10000;
+}
+
 .user img {
     margin-top: -120px;
     margin-bottom: 50px;
