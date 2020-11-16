@@ -42,6 +42,7 @@
 }
 
 .cuerpo {
+    margin-bottom: 2rem;
     margin-top: 7rem;
     z-index: -1;
 }
@@ -58,6 +59,12 @@
 }
 
 @media (max-width: 760px) {
+    .navg a {
+        color: #f4f4f4!important;
+        font-size: 10px;
+        padding: 2px 5px;
+        text-transform: uppercase;
+    }
     .portada img {
         height: 50px;
         width: 50px;
@@ -70,8 +77,13 @@
     }
 }
 
-.store {
-    padding-top: 100px;
+@media (min-width: 760px) {
+    .navg a {
+        color: #f4f4f4!important;
+        font-size: 17px;
+        padding: 10px 15px;
+        text-transform: uppercase;
+    }
 }
 
 .store:before {
@@ -87,7 +99,7 @@
 
 .text-header {
     min-height: 100vh;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .text-header span {
@@ -112,9 +124,9 @@
 }
 
 .categoria {
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .3);
-    background: rgba(255, 255, 255, .7);
-    border-radius: circle;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .7);
+    background: rgba(255, 255, 255, .85);
+    border-radius: 5%;
 }
 
 .user img {
@@ -136,22 +148,4 @@
 .form-group input {
     background: rgba(0, 0, 0, .4);
     border-color: rgba(0, 0, 0, .4);
-}
-
-@media (max-width: 760) {
-    .navg a {
-        color: #f4f4f4!important;
-        font-size: 10px;
-        padding: 2px 5px;
-        text-transform: uppercase;
-    }
-}
-
-@media (min-width: 760) {
-    .navg a {
-        color: #f4f4f4!important;
-        font-size: 20px;
-        padding: 10px 15px;
-        text-transform: uppercase;
-    }
 }
