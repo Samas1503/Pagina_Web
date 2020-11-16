@@ -13,7 +13,7 @@
 }
 
 .fondo-main {
-    background-image: url("../img/Fondos/Fondo_principal_bg.jpg");
+    background-image: url("../img/Fondos/Fondo principal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,14 +35,15 @@
 
 .menu {
     position: fixed;
-    z-index: 20;
+    z-index: 40;
     left: 0;
     top: 0;
     right: 0;
 }
 
 .cuerpo {
-    padding-top: 100px;
+    margin-top: 7rem;
+    z-index: -1;
 }
 
 .pie {
@@ -82,14 +83,6 @@
     left: 0;
     background-image: linear-gradient(rgba(34, 40, 40, .7), rgba(71, 71, 71, 0.1));
     background-attachment: fixed;
-}
-
-.navg a {
-    color: #f4f4f4!important;
-    font-size: 20px;
-    padding: 10px 15px;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .text-header {
@@ -143,4 +136,22 @@
 .form-group input {
     background: rgba(0, 0, 0, .4);
     border-color: rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 760) {
+    .navg a {
+        color: #f4f4f4!important;
+        font-size: 10px;
+        padding: 2px 5px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 760) {
+    .navg a {
+        color: #f4f4f4!important;
+        font-size: 20px;
+        padding: 10px 15px;
+        text-transform: uppercase;
+    }
 }
