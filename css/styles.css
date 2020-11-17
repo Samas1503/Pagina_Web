@@ -41,12 +41,6 @@
     right: 0;
 }
 
-.cuerpo {
-    margin-bottom: 2rem;
-    margin-top: 7rem;
-    z-index: -1;
-}
-
 .pie {
     left: 0;
     right: 0;
@@ -59,6 +53,15 @@
 }
 
 @media (max-width: 760px) {
+    .menu h2 {
+        font-size: 25px;
+    }
+    .cuerpo {
+        margin-bottom: 50px;
+        margin-top: 100px;
+        padding-top: 50px;
+        z-index: -1;
+    }
     .navg a {
         color: #f4f4f4!important;
         font-size: 10px;
@@ -78,6 +81,11 @@
 }
 
 @media (min-width: 760px) {
+    .cuerpo {
+        margin-bottom: 2rem;
+        margin-top: 7rem;
+        z-index: -1;
+    }
     .navg a {
         color: #f4f4f4!important;
         font-size: 17px;
