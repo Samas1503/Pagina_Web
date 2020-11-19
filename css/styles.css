@@ -19,6 +19,41 @@
     background-attachment: fixed;
 }
 
+.fondo-store {
+    background-image: url("../img/Fondos/fondo_store.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-don {
+    background-image: url("../img/Fondos/fondo_donaciones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-noticias {
+    background-image: url("../img/Fondos/fondo_noticias.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-foro {
+    background-image: url("../img/Fondos/fondo_foro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-fotos {
+    background-image: url("../img/Fondos/fondo_fotos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .fondo-reg {
     background-image: url("../img/Fondos/fondo_registro.jpg");
     background-size: cover;
@@ -26,8 +61,8 @@
     background-attachment: fixed;
 }
 
-.fondo-store {
-    background-image: url("../img/Fondos/fondo_store.jpg");
+.fondo-inicio {
+    background-image: url("../img/Fondos/fondo_inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
