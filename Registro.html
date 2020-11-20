@@ -53,7 +53,7 @@
                         <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center" href="Registro.html"><i class="fas fa-archive align-items-center"></i><br> Registrarse</a>
                     </li>
                     <li class="nav-item active m-md-auto m-lg-auto m-xl-auto">
-                        <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center" href="#"><i class="fas fa-user-circle align-items-center"></i><br> Iniciar Sesión</a>
+                        <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center" href="Iniciar-Sesion.html"><i class="fas fa-user-circle align-items-center"></i><br> Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
@@ -74,31 +74,37 @@
                             <div class="row col-3">
                                 <h2 class="ml-2"><i class="fas fa-signature mr-2"></i></h2>
                             </div>
-                            <input type="text" class="form-control" name="Nombre" id="nombre" placeholder="Nombre/s">
+                            <input type="text" class="form-control" name="Nombre" id="nombre" required placeholder="Nombre/s">
                         </div>
                         <div class="form-group mx-md-5 d-flex">
                             <div class="row col-3">
                                 <h2 class="ml-2"><i class="fas fa-file-signature mr-2"></i></h2>
                             </div>
-                            <input type="text" class="form-control" name="Apellido" id="apellido" placeholder="Apellido/s">
+                            <input type="text" class="form-control" name="Apellido" id="apellido" required placeholder="Apellido/s">
                         </div>
                         <div class="form-group mx-md-5 d-flex">
                             <div class="row col-3">
                                 <h2 class="ml-2"><i class="far fa-envelope mr-2"></i></h2>
                             </div>
-                            <input type="e-mail" class="form-control" name="Correo" id="correo" placeholder="Correo Electronico">
+                            <input type="e-mail" class="form-control" name="Correo" id="correo" required placeholder="Correo Electronico">
                         </div>
                         <div class="form-group mx-md-5 d-flex">
                             <div class="row col-3">
                                 <h2 class="ml-2"><i class="fas fa-user mr-2"></i></h2>
                             </div>
-                            <input type="text" class="form-control" name="Usuario" id="usuario" placeholder="Nombre de usuario">
+                            <input type="text" class="form-control" name="Usuario" id="usuario" required placeholder="Nombre de usuario">
                         </div>
                         <div class="form-group mx-md-5 d-flex">
                             <div class="row col-3">
                                 <h2 class="ml-2"><i class="fas fa-key"></i></h2>
                             </div>
-                            <input type="password" class="form-control" name="Contraseña" id="contraseña" placeholder="Contraseña">
+                            <input type="password" class="form-control" name="Contraseña" id="contraseña" required placeholder="Contraseña">
+                        </div>
+                        <div class="form-group mx-md-5 d-flex">
+                            <div class="row col-3">
+                                <h2 class="ml-2"><i class="fab fa-keycdn"></i></h2>
+                            </div>
+                            <input type="password" class="form-control" name="Confirmacion" id="confirm-contraseña" required placeholder="Contraseña">
                         </div>
                         <div class="form-group mx-md-5 d-flex">
                             <div class="row col-3">
@@ -110,16 +116,15 @@
                             <div class="row col-3">
                                 <h2 class="ml-2"><i class="fas fa-calendar-alt"></i></h2>
                             </div>
-                            <input type="date" class="form-control" name="Nacimiento" id="nacimiento" placeholder="Fecha de Nacimiento">
+                            <input type="date" class="form-control" name="Nacimiento" id="nacimiento" required placeholder="Fecha de Nacimiento">
                         </div>
                         <div class="mx-md-5">
                             <p class="text-white">Al Confirmar su registro usted esta aceptando las
                                 <a href="">Poliicas de Privacidad</a> de la Pagina. </p>
                         </div>
                         <div class="form-group mx-md-5 pb-5">
-                            <button class="btn btn-block hecho" id="enviar"><input class="btn btn-success btn-block text-white" type="submit" name="Enviar"></button>
-
-                            <a href="index.html" id="cancelar" class="btn btn-block btn-danger text-white">Cancelar</a>
+                            <button class="btn btn-block" id="enviar"><input class="btn btn-success btn-block text-white" type="submit" name="Enviar"></button>
+                            <button class="btn btn-block"><a href="index.html" id="cancelar" class="btn btn-block btn-danger text-white">Cancelar</a></button>
                         </div>
                     </form>
                 </div>
