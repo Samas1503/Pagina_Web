@@ -82,6 +82,10 @@
     background-attachment: fixed;
 }
 
+.menu {
+    background: rgb(26, 26, 31, 0.692);
+}
+
 .pie {
     left: 0;
     right: 0;
@@ -118,6 +122,7 @@
 
 @media (min-width: 1000px) {
     .cuerpo {
+        margin-top: 3rem;
         margin-bottom: 2rem;
     }
     .navg a {
@@ -232,8 +237,8 @@
 }
 
 .img-top {
-    border-radius: 50%;
-    position: center
+    border-radius: 1000%;
+    position: center;
 }
 
 .course h6 {
@@ -284,7 +289,7 @@
     top: 0;
     left: 0;
     height: 5px;
-    width: 36%;
+    width: 30%;
 }
 
 .progress-text {
@@ -302,7 +307,7 @@
     background: #00cc00;
     color: #fff;
     border: 1px solid transparent;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(48, 36, 36, 0.2);
     font-size: 10px;
     padding: 10px 20px;
     bottom: 30px;
@@ -449,7 +454,7 @@
     justify-content: space-between;
 }
 
-.trasera .datps p {
+.trasera .datos p {
     margin-bottom: 5px;
 }
 
@@ -464,7 +469,7 @@
 
 .trasera .datos #firma .firma p {
     line-height: 40px;
-    font-family: 'Liu Jain Mao Cao', cursive;
+    font-family: cursive;
     color: #000;
     font-size: 30px;
     padding: 0 10px;
