@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
             <img src="img/iconos/icono2.png" height="50" alt="">
-            <h2 class="text-white ml-3"> Arboles Berdes</h2>
+            <h2 class="text-white ml-3"> Green Trees</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="#menu" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,12 +26,12 @@
                     <li class="nav-item dropdown active m-md-auto m-lg-auto m-xl-auto">
                         <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center dropdown-toggle" href="#" id="desplegable" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-info-circle"></i><br>Información</a>
                         <div class="dropdown-menu menu" aria-labelledby="desplegable">
-                            <a class="dropdown-item text-dark text-left" href="#">Preparacion</a>
-                            <a class="dropdown-item text-dark text-left" href="#">Plantacion</a>
-                            <a class="dropdown-item text-dark text-left" href="#">Tips Sobre Cuidado de Plantas</a>
-                            <a class="dropdown-item text-dark text-left" href="#">Curiosidades</a>
+                            <a class="dropdown-item text-dark text-left" href="info-preparacion.html">Preparacion</a>
+                            <a class="dropdown-item text-dark text-left" href="info-plantacion.html">Plantacion</a>
+                            <a class="dropdown-item text-dark text-left" href="info-tips.html">Tips Sobre Cuidado de Plantas</a>
+                            <a class="dropdown-item text-dark text-left" href="info-curiosidades.html">Curiosidades</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item text-dark" href="#">Sugerencias</a>
+                            <a class="dropdown-item text-dark" href="Sugerencias.html">Sugerencias</a>
                         </div>
                     </li>
                     <li class="nav-item active m-md-auto m-lg-auto m-xl-auto">
@@ -39,9 +39,6 @@
                     </li>
                     <li class="nav-item active m-md-auto m-lg-auto m-xl-auto">
                         <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center" href="Noticias.html"><i class="fas fa-newspaper align-items-center"></i><br>Noticias</a>
-                    </li>
-                    <li class="nav-item active m-md-auto m-lg-auto m-xl-auto">
-                        <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center" href="Galeria.html"><i class="fas fa-images align-items-center"></i><br>Fotos</a>
                     </li>
                     <li class="nav-item active m-md-auto m-lg-auto m-xl-auto">
                         <a class="nav-link text-sm-left text-md-center text-lg-center text-xl-center" href="#"><i class="fas fa-comments align-items-center"></i><br>Foros</a>
@@ -67,8 +64,672 @@
             </div>
         </nav>
     </header>
-    <div class="cuerpo mx-3">
-
+    <div class="cuerpo container-fluid">
+        <div class="bg-light p-2 foros">
+            <h1 class="p-4 text-center titulo-foro">Bienvenido al Foro</h1>
+            <nav class="nav nav-fill mb-3 bg-light" id="Foros" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a id="Reciclaje-tab" data-toggle="pill" href="#reciclaje" role="tab" aria-controls="reciclaje" aria-selected="false"><button class="btn btn-light rounded shadow"><i class="fas fa-recycle"></i> Reciclaje</button></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a id="Re-Forestar-tab" data-toggle="pill" href="#re-forestar" role="tab" aria-controls="re-forestar" aria-selected="false"><button class="btn btn-light rounded shadow"><i class="fas fa-tree"></i> Re-Forestacion</button></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a id="Salud-tab" data-toggle="pill" href="#salud" role="tab" aria-controls="salud" aria-selected="false"><button class="btn btn-light rounded shadow"><i class="fas fa-heart"></i> Salud</button></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a id="Agregar-temas-tab" data-toggle="pill" href="#agregar-temas" role="tab" aria-controls="agregar-temas" aria-selected="false"><button class="btn btn-light rounded shadow"><i class="fas fa-plus"></i> Agregar Tema</button></a>
+                </li>
+            </nav>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade" id="reciclaje" role="tabpanel" aria-label="Reciclaje-tab">
+                <div class="container-fluid">
+                    <div class="row bg-light">
+                        <div class="nav d-flex flex-column nav-pills text-center col-md-3 col-lg-3 col-xl-3 col-sm-10" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-principal-reciclaje-tab" data-toggle="pill" href="#v-pills-principal-reciclaje" role="tab" aria-controls="v-pills-principal-reciclaje" aria-selected="true">Principal</a>
+                            <a class="nav-link" id="v-pills-metodos-reciclaje-tab" data-toggle="pill" href="#v-pills-metodos-reciclaje" role="tab" aria-controls="v-pills-metodos-reciclaje" aria-selected="false">Métodos</a>
+                            <a class="nav-link" id="v-pills-discucion-reciclaje-tab" data-toggle="pill" href="#v-pills-discucion-reciclaje" role="tab" aria-controls="v-pills-discucion-reciclaje" aria-selected="false">Comunidad</a>
+                        </div>
+                        <div class="col-md-9 col-lg-9 col-xl-9 col-sm-10">
+                            <div class="tab-content" id="v-pills-reciclar-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-principal-reciclaje" role="tabpanel" aria-labelledby="v-pills-principal-reciclaje-tab">
+                                    <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+                                        <h1>Pagina Principal</h1>
+                                        <img src="img/Foro/reciclaje.png" class="img-fluid py-3" alt="">
+                                        <p>El reciclaje es un proceso cuyo objetivo es convertir residuos en nuevos productos o en materia prima para su posterior utilización.</p>
+                                        <p>Gracias al reciclaje se previene el desuso de materiales potencialmente útiles, se reduce el consumo de nueva materia prima, además de reducir el uso de energía, la contaminación del aire (a través de la incineración)
+                                            y del agua (a través de los vertederos), así como también disminuir las emisiones de gases de efecto invernadero en comparación con la producción de plásticos.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-metodos-reciclaje" role="tabpanel" aria-labelledby="v-pills-metodos-reciclaje-tab">
+                                    <div class="row container-fluid d-flex align-items-center justify-content-center">
+                                        <h1>Tipos de Reciclaje</h1>
+                                        <div class="col-12">
+                                            <div class="card-columns">
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Aluminio</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-aluminio.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje del aluminio es un proceso mediante el cual, los desechos de aluminio pueden ser convertidos en otros productos tras su utilidad primaria.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Vidrio</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-vidrio.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El vidrio es un material totalmente reciclable y no hay límite en la cantidad de veces que puede ser reprocesado. Al reciclarlo no se pierden las propiedades y se ahorra una cantidad de energía de
+                                                            alrededor del 30 % con respecto al vidrio nuevo.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Pilas</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-pilas.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de pilas y baterías es una actividad cuyo objetivo es reducir el número de pilas y baterías que son descartadas como residuo sólido urbano. Las baterías y pilas contienen diversos metales
+                                                            pesados y químicos tóxicos; cuyo descarte ha sido motivo de preocupación a causa de los riesgos de contaminación del suelo y del agua, que las mismas representan.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Cemento</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-cemento.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de cemento es un método cada vez más común para reutilizar los escombros resultantes en la demolición o acondicionamiento de estructuras hechas de este material.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Papel</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-papel.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de papel es el proceso de recuperación de papel ya creado o utilizado para transformarlo en nuevos productos de papel. Existen tres categorías de papel que pueden utilizarse como materia
+                                                            prima para papel reciclado: molido, desechos de pre-consumo y desecho de post-consumo.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Cartón</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-carton.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El cartón es un material formado por varias capas de papel superpuestas, a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente que el papel.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Plástico</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-plastico.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>Los desechos plásticos no son susceptibles de asimilarse de nuevo en la naturaleza. Debido a esto, se ha establecido el reciclado de los productos de plástico, lo que consiste básicamente en recolectarlos,
+                                                            limpiarlos, seleccionarlos por tipo de material y fundirlos de nuevo para su uso como materia prima adicional, alternativa o sustituta, para el moldeado de otros productos.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-discucion-reciclaje" role="tabpanel" aria-labelledby="v-pills-discucion-reciclaje-tab">
+                                    <div class="container">
+                                        <div class="row">
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <div class="row mx-3">
+                                                    <div class="form-groug col-12 d-flex justify-content-center align-items-center aligh-items-center">
+                                                        <i class="fas fa-smile icono-chat"></i>
+                                                        <input type="text" class="form-control formulario input-chat mx-4 my-1" placeholder="Ingrese su comentario">
+                                                        <i class="far fa-paper-plane icono-chat"></i>
+                                                    </div>
+                                                </div>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer mx-3">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="re-forestar" role="tabpanel" aria-label="Re-Forestacion-tab">
+                <div class="container-fluid">
+                    <div class="row bg-light">
+                        <div class="nav d-flex flex-column nav-pills text-center col-md-3 col-lg-3 col-xl-3 col-sm-10" id="v-pills-forestar-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-principal-forestar-tab" data-toggle="pill" href="#v-pills-principal-forestar" role="tab" aria-controls="v-pills-principal-forestar" aria-selected="true">Principal</a>
+                            <a class="nav-link" id="v-pills-metodos-forestar-tab" data-toggle="pill" href="#v-pills-metodos-forestar" role="tab" aria-controls="v-pills-metodos-forestar" aria-selected="false">Métodos</a>
+                            <a class="nav-link" id="v-pills-discucion-forestar-tab" data-toggle="pill" href="#v-pills-discucion-forestar" role="tab" aria-controls="v-pills-discucion-forestar" aria-selected="false">Comunidad</a>
+                        </div>
+                        <div class="col-md-9 col-lg-9 col-xl-9 col-sm-10">
+                            <div class="tab-content" id="v-pills-forestar-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-principal-forestar" role="tabpanel" aria-labelledby="v-pills-principal-forestar-tab">
+                                    <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+                                        <h1>Pagina Principal</h1>
+                                        <img src="img/Foro/reciclaje.png" class="img-fluid py-3" alt="">
+                                        <p>El reciclaje es un proceso cuyo objetivo es convertir residuos en nuevos productos o en materia prima para su posterior utilización.</p>
+                                        <p>Gracias al reciclaje se previene el desuso de materiales potencialmente útiles, se reduce el consumo de nueva materia prima, además de reducir el uso de energía, la contaminación del aire (a través de la incineración)
+                                            y del agua (a través de los vertederos), así como también disminuir las emisiones de gases de efecto invernadero en comparación con la producción de plásticos.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-metodos-forestar" role="tabpanel" aria-labelledby="v-pills-metodos-forestar-tab">
+                                    <div class="row container-fluid d-flex align-items-center justify-content-center">
+                                        <h1>Tipos de Reciclaje</h1>
+                                        <div class="col-12">
+                                            <div class="card-columns">
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Aluminio</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-aluminio.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje del aluminio es un proceso mediante el cual, los desechos de aluminio pueden ser convertidos en otros productos tras su utilidad primaria.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Vidrio</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-vidrio.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El vidrio es un material totalmente reciclable y no hay límite en la cantidad de veces que puede ser reprocesado. Al reciclarlo no se pierden las propiedades y se ahorra una cantidad de energía de
+                                                            alrededor del 30 % con respecto al vidrio nuevo.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Pilas</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-pilas.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de pilas y baterías es una actividad cuyo objetivo es reducir el número de pilas y baterías que son descartadas como residuo sólido urbano. Las baterías y pilas contienen diversos metales
+                                                            pesados y químicos tóxicos; cuyo descarte ha sido motivo de preocupación a causa de los riesgos de contaminación del suelo y del agua, que las mismas representan.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Cemento</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-cemento.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de cemento es un método cada vez más común para reutilizar los escombros resultantes en la demolición o acondicionamiento de estructuras hechas de este material.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Papel</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-papel.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de papel es el proceso de recuperación de papel ya creado o utilizado para transformarlo en nuevos productos de papel. Existen tres categorías de papel que pueden utilizarse como materia
+                                                            prima para papel reciclado: molido, desechos de pre-consumo y desecho de post-consumo.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Cartón</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-carton.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El cartón es un material formado por varias capas de papel superpuestas, a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente que el papel.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Plástico</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-plastico.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>Los desechos plásticos no son susceptibles de asimilarse de nuevo en la naturaleza. Debido a esto, se ha establecido el reciclado de los productos de plástico, lo que consiste básicamente en recolectarlos,
+                                                            limpiarlos, seleccionarlos por tipo de material y fundirlos de nuevo para su uso como materia prima adicional, alternativa o sustituta, para el moldeado de otros productos.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-discucion-forestar" role="tabpanel" aria-labelledby="v-pills-discucion-forestar-tab">
+                                    <div class="container">
+                                        <div class="row">
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <div class="row mx-3">
+                                                    <div class="form-groug col-12 d-flex justify-content-center align-items-center aligh-items-center">
+                                                        <i class="fas fa-smile icono-chat"></i>
+                                                        <input type="text" class="form-control formulario input-chat mx-4 my-1" placeholder="Ingrese su comentario">
+                                                        <i class="far fa-paper-plane icono-chat"></i>
+                                                    </div>
+                                                </div>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer mx-3">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="salud" role="tabpanel" aria-label="Salud-tab">
+                <div class="container-fluid">
+                    <div class="row bg-light">
+                        <div class="nav d-flex flex-column nav-pills text-center col-md-3 col-lg-3 col-xl-3 col-sm-10" id="v-pills-salud-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-principal-salud-tab" data-toggle="pill" href="#v-pills-principal-salud" role="tab" aria-controls="v-pills-principal-salud" aria-selected="true">Principal</a>
+                            <a class="nav-link" id="v-pills-metodos-salud-tab" data-toggle="pill" href="#v-pills-metodos-salud" role="tab" aria-controls="v-pills-metodos-salud" aria-selected="false">Métodos</a>
+                            <a class="nav-link" id="v-pills-discucion-salud-tab" data-toggle="pill" href="#v-pills-discucion-salud" role="tab" aria-controls="v-pills-discucion-salud" aria-selected="false">Comunidad</a>
+                        </div>
+                        <div class="col-md-9 col-lg-9 col-xl-9 col-sm-10">
+                            <div class="tab-content" id="v-pills-salud-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-principal-salud" role="tabpanel" aria-labelledby="v-pills-principal-salud-tab">
+                                    <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+                                        <h1>Pagina Principal</h1>
+                                        <img src="img/Foro/reciclaje.png" class="img-fluid py-3" alt="">
+                                        <p>El reciclaje es un proceso cuyo objetivo es convertir residuos en nuevos productos o en materia prima para su posterior utilización.</p>
+                                        <p>Gracias al reciclaje se previene el desuso de materiales potencialmente útiles, se reduce el consumo de nueva materia prima, además de reducir el uso de energía, la contaminación del aire (a través de la incineración)
+                                            y del agua (a través de los vertederos), así como también disminuir las emisiones de gases de efecto invernadero en comparación con la producción de plásticos.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-metodos-salud" role="tabpanel" aria-labelledby="v-pills-metodos-salud-tab">
+                                    <div class="row container-fluid d-flex align-items-center justify-content-center">
+                                        <h1>Tipos de Reciclaje</h1>
+                                        <div class="col-12">
+                                            <div class="card-columns">
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Aluminio</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-aluminio.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje del aluminio es un proceso mediante el cual, los desechos de aluminio pueden ser convertidos en otros productos tras su utilidad primaria.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Vidrio</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-vidrio.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El vidrio es un material totalmente reciclable y no hay límite en la cantidad de veces que puede ser reprocesado. Al reciclarlo no se pierden las propiedades y se ahorra una cantidad de energía de
+                                                            alrededor del 30 % con respecto al vidrio nuevo.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Pilas</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-pilas.png" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de pilas y baterías es una actividad cuyo objetivo es reducir el número de pilas y baterías que son descartadas como residuo sólido urbano. Las baterías y pilas contienen diversos metales
+                                                            pesados y químicos tóxicos; cuyo descarte ha sido motivo de preocupación a causa de los riesgos de contaminación del suelo y del agua, que las mismas representan.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Cemento</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-cemento.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de cemento es un método cada vez más común para reutilizar los escombros resultantes en la demolición o acondicionamiento de estructuras hechas de este material.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Papel</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-papel.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El reciclaje de papel es el proceso de recuperación de papel ya creado o utilizado para transformarlo en nuevos productos de papel. Existen tres categorías de papel que pueden utilizarse como materia
+                                                            prima para papel reciclado: molido, desechos de pre-consumo y desecho de post-consumo.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Cartón</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-carton.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>El cartón es un material formado por varias capas de papel superpuestas, a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente que el papel.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                                <!--Articulo-->
+                                                <div class="card">
+                                                    <div class="card-header text-center">
+                                                        <h2>Reciclaje de Plástico</h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <img src="img/Foro/reciclaje-plastico.jpg" class="img-fluid py-3" alt="">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <p>Los desechos plásticos no son susceptibles de asimilarse de nuevo en la naturaleza. Debido a esto, se ha establecido el reciclado de los productos de plástico, lo que consiste básicamente en recolectarlos,
+                                                            limpiarlos, seleccionarlos por tipo de material y fundirlos de nuevo para su uso como materia prima adicional, alternativa o sustituta, para el moldeado de otros productos.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Fin Articulo-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-discucion-salud" role="tabpanel" aria-labelledby="v-pills-discucion-salud-tab">
+                                    <div class="container">
+                                        <div class="row">
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga esse perferendis dolore obcaecati amet?</p>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                            <blockquote class="col-12 text-center">
+                                                <!--Img-user-->
+                                                <img src="img/Flora/membrillo.jpg" class="coment-img" alt="">
+                                                <!--coment-user-->
+                                                <div class="row mx-3">
+                                                    <div class="form-groug col-12 d-flex justify-content-center align-items-center aligh-items-center">
+                                                        <i class="fas fa-smile icono-chat"></i>
+                                                        <input type="text" class="form-control formulario input-chat mx-4 my-1" placeholder="Ingrese su comentario">
+                                                        <i class="far fa-paper-plane icono-chat"></i>
+                                                    </div>
+                                                </div>
+                                                <!--nombre-user-->
+                                                <footer class="blockquote-footer mx-3">
+                                                    <cite>Nombre de usuario</cite>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="agregar-temas" role="tabpanel" aria-label="Agregar-temas-tab">
+                <!--Formulario-->
+                <form class="container text-white-50 col-8 pt-5 my-5 rounded formulario-foro">
+                    <div class="form-group">
+                        <label for="nombre-tema"><h5>Nombre del tema:</h5></label>
+                        <input id="nombre-tema" class="form-control" type="text" name="nuevo-tema" placeholder="Ingrese un Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre-tema"><h5>Nombre del tema:</h5></label>
+                        <input id="descripcion-tema" class="form-control" type="text" name="nuevo-descripcion" placeholder="Descripcion">
+                    </div>
+                    <div class="mx-md-5">
+                        <p>Debe esperar a que los Administradores de la pagina acepten el tema que desee agregar</p>
+                    </div>
+                    <div class="form-group mx-md-5 pb-5 ">
+                        <button class="btn" id="enviar"><input class="btn btn-success btn-block text-white" type="submit" name="Enviar"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 100%;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 100%;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Secondary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-success mb-3" style="max-width: 100%;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="pie">
         <div class="collapse" id="pie">
@@ -76,7 +737,7 @@
                 <h4 class="text-white">Contactanos</h4>
                 <span class="text-muted" id="contactos">
                         <i class="far fa-envelope"></i>
-                        <a href="#"> arbolesberdes@gmail.com</a>
+                        <a href="#"> greentrees@gmail.com</a>
                         <br>
                         <i class="fab fa-instagram"></i>
                         <a href="#"> Instagram</a>
